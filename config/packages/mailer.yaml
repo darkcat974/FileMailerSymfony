@@ -1,0 +1,5 @@
+framework:
+    mailer:
+        transports:
+            automatsntp: '%env(AUTOMATE_MAILER_DSN)%'
+            
